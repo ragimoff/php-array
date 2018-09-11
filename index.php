@@ -17,12 +17,11 @@
 		"Вино из одуванчиков" => "Рей Брэдбери",
 		"Атлант расправил плечи" => "Айн Рэнд"
 	);
-
+	echo "<ul>";
 	foreach ($booksList as $books => $author) {
-		echo "<ul>";
 		echo "<li><b>Автор:</b> $books, <b>Книга:</b> $author . </li>";
-		echo "</ul>";
 	}
+	echo "</ul>";
 
 
 		
